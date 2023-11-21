@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100px;
+    height: 110px;
+    margin-bottom: 20px; 
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+
+}
+.telaLogin {
+    background-color: #DCDCDC;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.campos {
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.inputs input {
+    margin-top: 5px;
+    padding: 10px 5px;
+    outline: none;
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+.inputs label {
+    margin-top: 10px;
+}
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.entrar,
+.cadastro {
+    background-color: #1e90ff;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover {
+    background-color: #006400;
+    color: white;
+}
+p {
+    color: #eeeeee;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #ffff00;
+    text-decoration: underline;
+}

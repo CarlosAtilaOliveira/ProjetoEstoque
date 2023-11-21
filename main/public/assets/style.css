@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.menuCima {
+    width: 100vw;
+    height: 50px;
+    background-color: #5F9EA0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 20px;
+    padding: 5px;
+    display: flex;
+}
+.logo img {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 25px;
+}
+.logo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFF00;
+    font-size: 15px;
+}
+.espec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    padding: 5px;
+}
+.espec h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    margin-right: 30px;
+}
+.espec img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Menu Lateral */
+
+.menuLateral {
+    width: 250px;
+    height: 100vh;
+    background-color: #5F9EA0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuLista {
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50vh;
+    color: #FFF;
+}
+.menuLista h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.menuLista ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuLista li {
+    font-size: 13px;
+    padding: 10px;
+}
+.menuLista li:hover {
+    color: #FFFF00;
+    cursor: pointer;
+}
+.botao3{
+    padding: 5px 40px;
+    background-color: #1e90ff;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao3:hover {
+    background-color: #006400;
+    color: #FFF;
+}
