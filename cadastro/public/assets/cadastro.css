@@ -42,7 +42,8 @@
     color: #FFF;
     font-weight: 500;
 }
-.corpo-campos #name, #email, #senha {
+.corpo-campos #name, 
+#email, #senha,#cpf {
     width: 20vw;
     outline: none;
     padding: 5px;
@@ -56,6 +57,7 @@
     border-radius: 5px;
 }
 button {
+    display: inline;
     padding: 5px 40px;
     margin: auto;
     margin-top: 20px;
